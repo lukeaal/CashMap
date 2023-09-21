@@ -22,6 +22,7 @@ Upon launching the app, users will be prompted to grant location access. Once pe
   - Provide a brief name to identify the transaction.
 - After adding the transaction, the form clears, and users can return to the map view by swiping down to dismiss the form.
 <img src="https://github.com/lukeaal/CashMap/blob/main/screenshots/Add_Purchase.jpg" alt="Map View" width="300" height="600">
+
 ### Transaction Table
 - When users tap the 'transactions' back button on the map, they are directed to a segmented table displaying all their transactions.
 - The table is segmented by category, with each row showing the transaction name and amount.
