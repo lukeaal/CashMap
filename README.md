@@ -21,7 +21,7 @@ Upon launching the app, users will be prompted to grant location access. Once pe
   - Select a category that best describes the transaction.
   - Provide a brief name to identify the transaction.
 - After adding the transaction, the form clears, and users can return to the map view by swiping down to dismiss the form.
-<img src="https://github.com/lukeaal/CashMap/blob/main/screenshots/Add_Purchase.jpg" alt="Map View" width="300" height="600">
+<img src="https://github.com/lukeaal/CashMap/blob/main/screenshots/Add_Purchase.jpg" alt="Add Transaction" width="300" height="600">
 
 ### Transaction Table
 - When users tap the 'transactions' back button on the map, they are directed to a segmented table displaying all their transactions.
@@ -31,24 +31,19 @@ Upon launching the app, users will be prompted to grant location access. Once pe
   - Using the clear button in the top left to remove all previous transactions.
   - Tapping on a table row to return to the map view, focused on the respective transaction.
   - Swiping left on a table row to reveal a delete button, allowing users to remove a specific transaction.
+<img src="https://github.com/lukeaal/CashMap/blob/main/screenshots/Table_View.jpg" alt="Transaction Table" width="300" height="600">
 
 ### Widget
 - Users can add a transactions widget to their home screen, displaying the total spent in each category.
 - Tapping the widget takes users back to the app.
-- <img src="https://github.com/lukeaal/CashMap/blob/main/screenshots/Add_Widget.jpg" alt="Map View" width="300" height="600">
-
-<img src="https://github.com/lukeaal/CashMap/blob/main/screenshots/Widget_Home_Screen.jpg" alt="Map View" width="300" height="600">
+<img src="https://github.com/lukeaal/CashMap/blob/main/screenshots/Add_Widget.jpg" alt="Add Widget" width="300" height="600">
+<img src="https://github.com/lukeaal/CashMap/blob/main/screenshots/Widget_Home_Screen.jpg" alt="Widget on Homescreen" width="300" height="600">
 **Note:** The app does not pull live data. Data sharing between widgets and the main app requires an Apple developer license due to bundle identifier conflicts and entitlement issues.
 
 ## Xcode Environment
 - Xcode Version: 14.2 (14C18)
 - Compatible with iOS versions 14 and above
 - Best experienced on iPhone 14 Plus (Please note: Category scroll bar may not appear on the form view for iPhone 14 Pro or Max due to constraint issues)
-
-### Table View
-- Users can view an itemized list of their past expenses
-- If a purchase is clicked, the delgate sends your screen to the pin on the map where the purchase occured
-- Optionally, if you wish to clear your purchases, you may do so with the clear button in the top left of the view
 
 ## Features, Functionalities, Implementations
 
