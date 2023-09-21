@@ -33,7 +33,8 @@ Upon launching the app, users will be prompted to grant location access. Once pe
 - **View Callout Bubble:** Tap on a pin on the map to view a callout bubble with additional information (more relevant for transaction pins).
 - **Add Transaction:** Click the 'plus' button in the bottom right to access the 'Add Transaction' form.
 - **View Transactions:** Navigate to the transactions list by tapping the 'transactions' back button in the top right.
-![Map View](https://github.com/lukeaal/CashMap/blob/main/screenshots/Marked_Transactions.jpg)
+
+<img src="https://github.com/lukeaal/CashMap/blob/main/screenshots/Marked_Transactions.jpg" alt="map view" width=300 height=600>
 
 ### Add Transaction
 - Clicking the 'Add Transaction' button opens a form where users can:
@@ -41,7 +42,8 @@ Upon launching the app, users will be prompted to grant location access. Once pe
   - Select a category that best describes the transaction.
   - Provide a brief name to identify the transaction.
 - After adding the transaction, the form clears, and users can return to the map view by swiping down to dismiss the form.
-![Add Transaction](https://github.com/lukeaal/CashMap/blob/main/screenshots/Add_Purchase.jpg)
+
+<img src="https://github.com/lukeaal/CashMap/blob/main/screenshots/Add_Purchase.jpg" alt="Add purchase" width=300 height=600>
 
 ### Transaction Table
 - When users tap the 'transactions' back button on the map, they are directed to a segmented table displaying all their transactions.
@@ -51,13 +53,18 @@ Upon launching the app, users will be prompted to grant location access. Once pe
   - Using the clear button in the top left to remove all previous transactions.
   - Tapping on a table row to return to the map view, focused on the respective transaction.
   - Swiping left on a table row to reveal a delete button, allowing users to remove a specific transaction.
-![Transaction Table](https://github.com/lukeaal/CashMap/blob/main/screenshots/Table_View.jpg)
+
+<img src="https://github.com/lukeaal/CashMap/blob/main/screenshots/Table_View.jpg" alt="Transactions" width=300 height=600>
+
 
 ### Widget
 - Users can add a transactions widget to their home screen, displaying the total spent in each category.
 - Tapping the widget takes users back to the app.
-![Add Widget](https://github.com/lukeaal/CashMap/blob/main/screenshots/Add_Widget.jpg)
-![Widget on Homescreen](https://github.com/lukeaal/CashMap/blob/main/screenshots/Widget_Home_Screen.jpg)
+
+<img src="https://github.com/lukeaal/CashMap/blob/main/screenshots/Add_Widget.jpg" alt="widget add" width=300 height=600>
+<img src="https://github.com/lukeaal/CashMap/blob/main/screenshots/Widget_Home_Screen.jpg" alt="widget home" width=300 height=600>
+
+
 
 **Note:** The app does not pull live data. Data sharing between widgets and the main app requires an Apple developer license due to bundle identifier conflicts and entitlement issues.
 
