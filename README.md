@@ -12,7 +12,7 @@ Upon launching the app, users will be prompted to grant location access. Once pe
 - **View Callout Bubble:** Tap on a pin on the map to view a callout bubble with additional information (more relevant for transaction pins).
 - **Add Transaction:** Click the 'plus' button in the bottom right to access the 'Add Transaction' form.
 - **View Transactions:** Navigate to the transactions list by tapping the 'transactions' back button in the top right.
-![Alt Text](Image URL)
+![Map View](https://github.com/lukeaal/CashMap/blob/main/screenshots/Marked_Transactions.jpg)
 
 ### Add Transaction
 - Clicking the 'Add Transaction' button opens a form where users can:
